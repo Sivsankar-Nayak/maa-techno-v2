@@ -1,0 +1,11 @@
+{
+  "Host": "smtp.elasticemail.com",
+  "Username": "maatecnoworlditsolutions@gmail.com",
+  "Password": "DF36E8DAADABE1C89E9A9A0C0FA90FEBC80C",
+  "To": "maatecnoworlditsolutions@gmail.com",
+  "From": "sivsankarnayak.sn@gmail.com",
+  "Subject": "New Contact From Contact Us",
+  "Body": "Name : Sivsankar<br> Email : sivsankarnayak.sn@gmail.com<br> Phone No : 7992889688<br> Message : Hi Sivsankar",
+  "nocache": 819030,
+  "Action": "Send"
+}

@@ -1660,6 +1660,15 @@
             method="POST"
             action="https://formsubmit.co/256fdb5c9dfa9214a31435ad93ac31e1"
           >
+            <!-- <form
+            class="rd-form rd-form-variant-2 rd-mailform"
+            data-form-output="form-output-global"
+            data-form-type="contact"
+            method="POST"
+            onsubmit="sendEmail(); reset(); return false;"
+          > -->
+            <!-- honeypot -->
+
             <input type="text" name="_honey" style="display: none" />
 
             <!-- Disable Captcha -->
@@ -2512,13 +2521,21 @@
       function sendEmail() {
         Email.send({
           Host: "smtp.elasticemail.com",
-          Username: "username",
-          Password: "password",
-          To: "them@website.com",
-          From: "you@isp.com",
-          Subject: "This is the subject",
-          Body: "And this is the body",
-        }).then((message) => alert(message));
+          Username: "maatecnoworlditsolutions@gmail.com",
+          Password: "DF36E8DAADABE1C89E9A9A0C0FA90FEBC80C",
+          To: "maatecnoworlditsolutions@gmail.com",
+          From: document.getElementById("contact-email-2").value,
+          Subject: "New Contact From Contact Us",
+          Body:
+            "Name : " +
+            document.getElementById("contact-your-name-2").value +
+            "<br> Email : " +
+            document.getElementById("contact-email-2").value +
+            "<br> Phone No : " +
+            document.getElementById("contact-phone-2").value +
+            "<br> Message : " +
+            document.getElementById("contact-message-2").value,
+        }).then((message) => alert("Message Sent Successfully!"));
       }
     </script>
   </body>
