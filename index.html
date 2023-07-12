@@ -1,2660 +1,1061 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html lang="en">
   <head>
-    <title>MAA TECHNO</title>
-    <meta name="format-detection" content="telephone=no" />
+    <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta charset="utf-8" />
-    <link rel="icon" href="images/MTW.ico" type="image/x-icon" />
-    <!-- Stylesheets-->
+    <meta
+      name="description"
+      content="Start your development with Ollie landing page."
+    />
+    <meta name="author" content="Devcrud" />
+    <title>Maa Tecno World IT Solutions</title>
+
+    <!-- font icons -->
     <link
       rel="stylesheet"
-      type="text/css"
-      href="//fonts.googleapis.com/css?family=Poppins:400,500,600%7CTeko:300,400,500%7CMaven+Pro:500"
+      href="./assets/vendors/themify-icons/css/themify-icons.css"
     />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <style>
-      .ie-panel {
-        display: none;
-        background: #212121;
-        padding: 10px 0;
-        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
-        clear: both;
-        text-align: center;
-        position: relative;
-        z-index: 1;
-      }
-      html.ie-10 .ie-panel,
-      html.lt-ie-10 .ie-panel {
-        display: block;
-      }
-    </style>
+
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/owl-carousel/css/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/vendors/owl-carousel/css/owl.theme.default.css"
+    />
+    <script>
+      window.onload = function () {
+        document.getElementById("contactUsForm").reset();
+      };
+    </script>
+    <!-- Bootstrap + Ollie main styles -->
+    <link rel="stylesheet" href="./assets/css/ollie.css" />
   </head>
-  <body>
-    <div class="ie-panel">
-      <a href="http://windows.microsoft.com/en-US/internet-explorer/"
-        ><img
-          src="images/ie8-panel/warning_bar_0000_us.jpg"
-          height="42"
-          width="820"
-          alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
-      /></a>
-    </div>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <span></span><span></span><span></span><span></span>
+  <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <nav
+      id="scrollspy"
+      class="navbar navbar-light bg-light navbar-expand-lg fixed-top"
+      data-spy="affix"
+      data-offset-top="20"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/imgs/brand.svg" alt="" class="brand-img"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testmonial">Testmonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ml-0 ml-lg-4">
+              <a
+                class="nav-link btn btn-primary"
+                href="https://prod.uhrs.playmsn.com/uhrs/"
+                target="_blank"
+                >Start Work</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="page">
-      <div id="home">
-        <!-- Top Banner-->
-        <!-- <a
-          class="section section-banner text-center d-none d-xl-block"
-          href="https://www.templatemonster.com/intense-multipurpose-html-template.html"
-          style="
-            background-image: url(images/banner/banner-bg-02-1920x60.jpg);
-            background-image: -webkit-image-set(
-              url(images/banner/banner-bg-02-1920x60.jpg) 1x,
-              url(images/banner/banner-bg-02-3840x120.jpg) 2x
-            );
-          "
-          target="_blank"
-          ><img
-            src="images/banner/banner-fg-02-1600x60.png"
-            srcset="
-              images/banner/banner-fg-02-1600x60.png  1x,
-              images/banner/banner-fg-02-3200x120.png 2x
-            "
-            alt=""
-            width="1600"
-            height="310"
-        /></a> -->
-        <!-- Page Header-->
-        <header class="section page-header">
-          <!-- RD Navbar-->
-          <div class="rd-navbar-wrap">
-            <nav
-              class="rd-navbar rd-navbar-classic"
-              data-layout="rd-navbar-fixed"
-              data-sm-layout="rd-navbar-fixed"
-              data-md-layout="rd-navbar-fixed"
-              data-md-device-layout="rd-navbar-fixed"
-              data-lg-layout="rd-navbar-static"
-              data-lg-device-layout="rd-navbar-fixed"
-              data-xl-layout="rd-navbar-static"
-              data-xl-device-layout="rd-navbar-static"
-              data-xxl-layout="rd-navbar-static"
-              data-xxl-device-layout="rd-navbar-static"
-              data-lg-stick-up-offset="46px"
-              data-xl-stick-up-offset="46px"
-              data-xxl-stick-up-offset="46px"
-              data-lg-stick-up="true"
-              data-xl-stick-up="true"
-              data-xxl-stick-up="true"
-            >
-              <div class="rd-navbar-main-outer">
-                <div class="rd-navbar-main">
-                  <!-- RD Navbar Panel-->
-                  <div class="rd-navbar-panel">
-                    <!-- RD Navbar Toggle-->
-                    <button
-                      class="rd-navbar-toggle"
-                      data-rd-navbar-toggle=".rd-navbar-nav-wrap"
-                    >
-                      <span></span>
-                    </button>
-                    <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand">
-                      <a class="brand" href="index.html"
-                        ><img
-                          src="images/MaaTechno3.png"
-                          alt=""
-                          width="223"
-                          height="30"
-                      /></a>
-                    </div>
-                  </div>
-                  <div class="rd-navbar-main-element">
-                    <div class="rd-navbar-nav-wrap">
-                      <!-- RD Navbar Share-->
-                      <div
-                        class="rd-navbar-share fl-bigmug-line-share27"
-                        data-rd-navbar-toggle=".rd-navbar-share-list"
-                      >
-                        <ul class="list-inline rd-navbar-share-list">
-                          <li class="rd-navbar-share-list-item">
-                            <a class="icon fa fa-facebook" href="#"></a>
-                          </li>
-                          <li class="rd-navbar-share-list-item">
-                            <a class="icon fa fa-twitter" href="#"></a>
-                          </li>
-                          <li class="rd-navbar-share-list-item">
-                            <a class="icon fa fa-google-plus" href="#"></a>
-                          </li>
-                          <li class="rd-navbar-share-list-item">
-                            <a class="icon fa fa-instagram" href="#"></a>
-                          </li>
-                        </ul>
-                      </div>
-                      <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item active">
-                          <a class="rd-nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="rd-nav-item">
-                          <a class="rd-nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="rd-nav-item">
-                          <a class="rd-nav-link" href="#projects">Gallery</a>
-                        </li>
-                        <li class="rd-nav-item">
-                          <a class="rd-nav-link" href="#team">Team</a>
-                        </li>
-                        <li class="rd-nav-item">
-                          <a class="rd-nav-link" href="#news">News</a>
-                        </li>
-                        <li class="rd-nav-item">
-                          <a class="rd-nav-link" href="#contacts">Contacts</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </header>
+    </nav>
 
-        <!-- Swiper-->
-        <section
-          class="section swiper-container swiper-slider swiper-slider-classic"
-          data-loop="true"
-          data-autoplay="4859"
-          data-simulate-touch="true"
-          data-direction="vertical"
-          data-nav="false"
-        >
-          <div class="swiper-wrapper text-center">
-            <div
-              class="swiper-slide"
-              data-slide-bg="images/slider-1-slide-2-1770x742.jpg"
-            >
-              <div class="swiper-slide-caption section-md">
-                <div class="container">
-                  <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">
-                    Training and Job Opportunities
-                  </h1>
-                  <p
-                    class="text-width-large"
-                    data-caption-animate="fadeInRight"
-                    data-caption-delay="100"
-                  >
-                    Since our establishment, we have been delivering
-                    high-quality and sustainable software solutions for
-                    corporate purposes of worldwide businesses.
-                  </p>
-                  <a
-                    class="button button-primary button-ujarak"
-                    href="https://prod.uhrs.playmsn.com/uhrs/"
-                    target="_blank"
-                    data-caption-animate="fadeInUp"
-                    data-caption-delay="200"
-                    >Start Work</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div
-              class="swiper-slide"
-              data-slide-bg="images/slider-1-slide-4-1770x742.jpg"
-            >
-              <div class="swiper-slide-caption section-md">
-                <div class="container">
-                  <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">
-                    Experienced Team for Training
-                  </h1>
-                  <p
-                    class="text-width-large"
-                    data-caption-animate="fadeInRight"
-                    data-caption-delay="100"
-                  >
-                    We are a team of qualified software developers, aimed at
-                    creating unique and powerful tools for your business &
-                    everyday life.
-                  </p>
-                  <a
-                    class="button button-primary button-ujarak"
-                    href="https://prod.uhrs.playmsn.com/uhrs/"
-                    target="_blank"
-                    data-toggle="modal"
-                    data-caption-animate="fadeInUp"
-                    data-caption-delay="200"
-                    >Start Work</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div
-              class="swiper-slide"
-              data-slide-bg="images/slider-1-slide-6-1770x742.jpg"
-            >
-              <div class="swiper-slide-caption section-md">
-                <div class="container">
-                  <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">
-                    Support and facility by the experts
-                  </h1>
-                  <p
-                    class="text-width-large"
-                    data-caption-animate="fadeInRight"
-                    data-caption-delay="100"
-                  >
-                    The software solutions developed by our company have been
-                    numerously awarded for usability and innovative features.
-                  </p>
-                  <a
-                    class="button button-primary button-ujarak"
-                    href="https://prod.uhrs.playmsn.com/uhrs/"
-                    target="_blank"
-                    data-toggle="modal"
-                    data-caption-animate="fadeInUp"
-                    data-caption-delay="200"
-                    >Start Work</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Swiper Pagination-->
-          <div class="swiper-pagination__module">
-            <div class="swiper-pagination__fraction">
-              <span class="swiper-pagination__fraction-index">00</span
-              ><span class="swiper-pagination__fraction-divider">/</span
-              ><span class="swiper-pagination__fraction-count">00</span>
-            </div>
-            <div class="swiper-pagination__divider"></div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </section>
-      </div>
-      <!-- See all services-->
-      <section
-        class="section section-sm section-first bg-default text-center"
-        id="services"
+    <header id="home" class="header">
+      <div class="overlay"></div>
+
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
       >
         <div class="container">
-          <div class="row row-30 justify-content-center">
-            <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp">
-              <img
-                src="images/index-1-415x592.png"
-                alt=""
-                width="415"
-                height="592"
-              />
-            </div>
-            <div class="col-lg-7 col-xl-6">
-              <div class="row row-30">
-                <div class="col-sm-6 wow fadeInRight">
-                  <article class="box-icon-modern box-icon-modern-custom">
-                    <div>
-                      <h3 class="box-icon-modern-big-title">What We Offer</h3>
-                      <div class="box-icon-modern-decor"></div>
-                      <a class="button button-primary button-ujarak" href="#"
-                        >View All Services</a
-                      >
-                    </div>
-                  </article>
-                </div>
-                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
-                  <article class="box-icon-modern box-icon-modern-2">
-                    <div class="box-icon-modern-icon linearicons-screen"></div>
-                    <h5 class="box-icon-modern-title">
-                      <a href="#">EXTENSIVE<br />TRAINING</a>
-                    </h5>
-                    <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">
-                      Our training programs are designed to help you sharpen
-                      your skills and stay ahead in the competitive IT Industry
-                      market.
-                    </p>
-                  </article>
-                </div>
-                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
-                  <article class="box-icon-modern box-icon-modern-2">
-                    <div
-                      class="box-icon-modern-icon linearicons-briefcase"
-                    ></div>
-                    <h5 class="box-icon-modern-title">
-                      <a href="#">VAST JOB <br />OPPORTUNITIES</a>
-                    </h5>
-                    <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">
-                      Access a wide range of IT projects from clients worldwide
-                      and build your portfolio with diverse experiences.
-                    </p>
-                  </article>
-                </div>
-                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".3s">
-                  <article class="box-icon-modern box-icon-modern-2">
-                    <div class="box-icon-modern-icon linearicons-user"></div>
-                    <h5 class="box-icon-modern-title">
-                      <a href="#">COMMUNITY<br />SUPPORT</a>
-                    </h5>
-                    <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">
-                      Connect with fellow freelancers, share insights, and learn
-                      from each other through our vibrant community forum.
-                    </p>
-                  </article>
-                </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="carousel-title">
+                  Maa Tecno<br />
+                  World IT Solutions
+                </h1>
+                <button
+                  class="btn btn-primary btn-rounded"
+                  onclick="window.location.href='https://prod.uhrs.playmsn.com/uhrs/';"
+                  target="blank"
+                >
+                  Start Work
+                </button>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Cta-->
-      <section class="section section-fluid bg-default">
-        <div
-          class="parallax-container"
-          data-parallax-img="images/parallax-1.jpg"
-        >
-          <div
-            class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay"
-          >
-            <div class="container">
-              <div class="row row-30 justify-content-end text-right">
-                <div class="col-sm-7">
-                  <h3 class="wow fadeInLeft">
-                    "Connecting, Learning, Succeeding Together"
-                  </h3>
-                  <p>
-                    Do you need a company which can deliver a vast amount of projects then Maa tecno world is right company place to come out for!
-                  </p>
-                  <div class="group-sm group-middle group justify-content-end">
-                    <a
-                      class="button button-primary button-ujarak"
-                      href="https://prod.uhrs.playmsn.com/uhrs/"
-                      target="_blank"
-                      data-toggle="modal"
-                      >Start Work</a
-                    ><a
-                      class="button button-white-outline button-ujarak"
-                      href="#"
-                      >Learn More</a
-                    >
-                  </div>
-                </div>
+            <!-- <div class="carousel-item">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="carousel-title">
+                  We Make <br />
+                  Responsive Design
+                </h1>
+                <button class="btn btn-primary btn-rounded">Login</button>
               </div>
-            </div>
+            </div> -->
+            <!-- <div class="carousel-item">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="carousel-title">
+                  We Make <br />
+                  Simple Design
+                </h1>
+                <button class="btn btn-primary btn-rounded">Learn More</button>
+              </div>
+            </div> -->
           </div>
         </div>
-      </section>
+      </div>
 
-      <!-- Latest Projects-->
-      <section
-        class="section section-sm section-fluid bg-default text-center"
-        id="projects"
-      >
-        <div class="container-fluid">
-          <h2 class="wow fadeInLeft">Office Gallery </h2>
-          <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">
-            In our portfolio, you can browse the latest products developed for
-            our clients for different corporate purposes. Our qualified team of
-            interface designers and software developers is always ready to
-            create something unique for you.
+      <div class="infos container mb-4 mb-md-2">
+        <div class="title">
+          <h6 class="subtitle font-weight-normal">We are looking for</h6>
+          <h5>People who want to learn and earn.</h5>
+          <p class="font-small">
+            Collaborate & Thrive: "Connecting, Learning, Succeeding Together"
           </p>
-          <div class="isotope-filters isotope-filters-horizontal">
-            <button
-              class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha"
-              data-custom-toggle="#isotope-3"
-              data-custom-toggle-hide-on-blur="true"
-              data-custom-toggle-disable-on-blur="true"
+        </div>
+        <div class="socials text-right">
+          <div class="row justify-content-between">
+            <div class="col">
+              <a class="d-block subtitle"
+                ><i class="ti-microphone pr-2"></i> (+91)7992889688</a
+              >
+              <a class="d-block subtitle"
+                ><i class="ti-email pr-2"></i>
+                maatecnoworlditsolutions@gmail.com</a
+              >
+            </div>
+            <div class="col">
+              <h6 class="subtitle font-weight-normal mb-2">Social Media</h6>
+              <div class="social-links">
+                <a href="javascript:void(0)" class="link pr-1"
+                  ><i class="ti-facebook"></i
+                ></a>
+                <a href="javascript:void(0)" class="link pr-1"
+                  ><i class="ti-twitter-alt"></i
+                ></a>
+                <a href="javascript:void(0)" class="link pr-1"
+                  ><i class="ti-google"></i
+                ></a>
+                <a href="javascript:void(0)" class="link pr-1"
+                  ><i class="ti-pinterest-alt"></i
+                ></a>
+                <a href="javascript:void(0)" class="link pr-1"
+                  ><i class="ti-instagram"></i
+                ></a>
+                <a href="javascript:void(0)" class="link pr-1"
+                  ><i class="ti-rss"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="row align-items-center mr-auto">
+          <div class="col-md-4">
+            <h6 class="xs-font mb-0">
+              A brief introduction about our company.
+            </h6>
+            <h3 class="section-title">About Us</h3>
+            <p>
+              Welcome to our platform, where freelancers find exciting
+              opportunities and learners access top-quality training programs.
+              We connect talented individuals with freelance jobs across various
+              industries, providing a diverse range of projects that match your
+              skills and interests. Additionally, our comprehensive training
+              modules empower you to enhance your abilities and stay ahead in a
+              rapidly evolving job market. Join our supportive community today
+              and unlock your potential for success.
+            </p>
+
+            <a href="javascript:void(0)">Read more...</a>
+          </div>
+          <div class="col-sm-6 col-md-4 ml-auto">
+            <div class="widget">
+              <div class="icon-wrapper">
+                <i class="ti-calendar"></i>
+              </div>
+              <div class="infos-wrapper">
+                <h4 class="text-primary">3+</h4>
+                <p>Office Locations</p>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="icon-wrapper">
+                <i class="ti-face-smile"></i>
+              </div>
+              <div class="infos-wrapper">
+                <h4 class="text-primary">125+</h4>
+                <p>onsectetur perspiciatis</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="widget">
+              <div class="icon-wrapper">
+                <i class="ti-star"></i>
+              </div>
+              <div class="infos-wrapper">
+                <h4 class="text-primary">3434+</h4>
+                <p>onsectetur perspiciatis</p>
+              </div>
+            </div>
+            <div class="widget">
+              <div class="icon-wrapper">
+                <i class="ti-user"></i>
+              </div>
+              <div class="infos-wrapper">
+                <h4 class="text-primary">80+</h4>
+                <p>Employees</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h6 class="xs-font mb-0">Blanditiis unde illum earum</h6>
+        <h3 class="section-title mb-4">Expertises</h3>
+
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <a href="javascript:void(0)" class="card border-0 text-dark">
+              <img
+                class="card-img-top"
+                src="./assets/imgs/img-5.jpg"
+                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+              />
+              <span class="card-body">
+                <h4 class="title mt-4">Codding &amp; Designing</h4>
+                <p class="xs-font">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="javascript:void(0)" class="card border-0 text-dark">
+              <img
+                class="card-img-top"
+                src="./assets/imgs/img-6.jpg"
+                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+              />
+              <span class="card-body">
+                <h4 class="title mt-4">Graphic Design</h4>
+                <p class="xs-font">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="javascript:void(0)" class="card border-0 text-dark">
+              <img
+                class="card-img-top"
+                src="./assets/imgs/img-7.jpg"
+                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+              />
+              <span class="card-body">
+                <h4 class="title mt-4">Development</h4>
+                <p class="xs-font">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
+        <h3 class="section-title pb-4">Our Products</h3>
+      </div>
+
+      <div id="owl-portfolio" class="owl-carousel owl-theme mt-4">
+        <a href="javascript:void(0)" class="item expertises-item">
+          <img
+            src="./assets/imgs/img-1.jpg"
+            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+            class="box-shadow"
+          />
+          <h6 class="mt-3 mb-2">Fuga asperiores</h6>
+          <p class="xs-font">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </a>
+        <a href="javascript:void(0)" class="item expertises-item">
+          <img
+            src="./assets/imgs/img-2.jpg"
+            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+            class="box-shadow"
+          />
+          <h6 class="mt-3 mb-2">Voluptatibus iure!</h6>
+          <p class="xs-font">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </a>
+        <a href="javascript:void(0)" class="item expertises-item">
+          <img
+            src="./assets/imgs/img-3.jpg"
+            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+            class="box-shadow"
+          />
+          <h6 class="mt-3 mb-2">Autem minus animi</h6>
+          <p class="xs-font">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </a>
+        <a href="javascript:void(0)" class="item expertises-item">
+          <img
+            src="./assets/imgs/img-4.jpg"
+            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+            class="box-shadow"
+          />
+          <h6 class="mt-3 mb-2">Sed eligendi</h6>
+          <p class="xs-font">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </a>
+        <a href="javascript:void(0)" class="item expertises-item">
+          <img
+            src="./assets/imgs/img-8.jpg"
+            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+            class="box-shadow"
+          />
+          <h6 class="mt-3 mb-2">Totam eveniet assumenda!</h6>
+          <p class="xs-font">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </a>
+        <a href="javascript:void(0)" class="item expertises-item">
+          <img
+            src="./assets/imgs/img-9.jpg"
+            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+            class="box-shadow"
+          />
+          <h6 class="mt-3 mb-2">Sapiente dolore ut</h6>
+          <p class="xs-font">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="testmonial">
+      <div class="container">
+        <h6 class="xs-font mb-0">Maa Techno World Company Pvt Ltd.</h6>
+        <h3 class="section-title">Company heads and Partners</h3>
+
+        <div id="owl-testmonial" class="owl-carousel owl-theme mt-4">
+          <div class="item">
+            <div class="textmonial-item">
+              <img
+                src="./assets/imgs/jaydeep2.jpeg"
+                class="avatar"
+                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+              />
+              <div class="des">
+                <h5 class="ti-quote-left font-weight-bold"></h5>
+                <p>
+                  <strong
+                    >Introducing Our CTO and Founder: Jaydip Vadchhak</strong
+                  ><br />
+                  Welcome to Maa Techno World Solutions Pvt Ltd! Meet Jaydip
+                  Vadchhak, our visionary Chief Technology Officer (CTO) and
+                  Founder. With a passion for freelance IT projects, Jaydip
+                  Vadchhak has shaped our company's success. As an expert in
+                  technology and an entrepreneur, he founded Maa Techno World
+                  Solutions Pvt Ltd to deliver cutting-edge IT solutions. Under
+                  his leadership, we have achieved milestones, empowering
+                  clients worldwide. Jaydip Vadchhak's technical brilliance,
+                  customer-centric approach, and understanding of the freelance
+                  IT industry drive us forward. With a profound knowledge of
+                  emerging trends and a diverse skill set, he navigates projects
+                  with efficiency. Trust Jaydip Vadchhak to lead our team,
+                  foster innovation, and exceed expectations. Let's collaborate
+                  on freelance IT projects and turn your ideas into reality.
+                  Contact Jaydip Vadchhak and join us on this successful
+                  journey!
+                </p>
+                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+                <div class="line"></div>
+                <h6 class="name">Jaydip Vadchhak</h6>
+                <h6 class="xs-font">
+                  Founder & CTO (Chief Technology Officer)
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="textmonial-item">
+              <img
+                src="./assets/imgs/Deepak.jpg"
+                class="avatar"
+                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+              />
+              <div class="des">
+                <h5 class="ti-quote-left font-weight-bold"></h5>
+                <p>
+                  <strong
+                    >Introducing Our COO and Co-founder: Deepak Nayak</strong
+                  ><br />
+                  Meet Deepak Nayak, our esteemed Chief Operating Officer (COO)
+                  and Co-founder at Maa Techno World Solutions Pvt Ltd. With a
+                  keen focus on operational excellence and a strong business
+                  acumen, Deepak Nayak has been instrumental in shaping our
+                  company's growth and success. As the COO, Deepak Nayak brings
+                  extensive experience and expertise to optimize our internal
+                  processes, drive efficiency, and foster sustainable growth.
+                  His strategic vision and meticulous attention to detail ensure
+                  the delivery of high-quality services and solutions to our
+                  clients. Deepak Nayak's role as a Co-founder highlights his
+                  entrepreneurial spirit and ability to navigate market
+                  dynamics. His leadership skills inspire our team, fostering
+                  collaboration, innovation, and professional development. With
+                  Deepak Nayak's dedication to operational efficiency and client
+                  satisfaction, Maa Techno World Solutions Pvt Ltd is poised for
+                  continued success in the competitive IT industry. Connect with
+                  Deepak Nayak and experience the expertise and leadership he
+                  brings to Maa Techno World Solutions Pvt Ltd. Let's embark on
+                  a journey of innovation and success together!
+                </p>
+                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+                <div class="line"></div>
+                <h6 class="name">Deepak Bhai</h6>
+                <h6 class="xs-font">
+                  Co-Founder & COO (Chief Operations Officer)
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="textmonial-item">
+              <img
+                src="./assets/imgs/kano.jpeg"
+                class="avatar"
+                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+              />
+              <div class="des">
+                <h5 class="ti-quote-left font-weight-bold"></h5>
+                <p>
+                  <strong
+                    >Introducing Our CFO - Driving Financial Excellence and
+                    Strategic Growth</strong
+                  ><br />
+                  We are pleased to present Nitin Vadchhak, the visionary leader
+                  and Chief Financial Officer (CFO) of MaaTecno Solutions Pvt
+                  Ltd. With an unwavering commitment to financial excellence and
+                  strategic foresight, Nitin Vadchhak plays a pivotal role in
+                  shaping our company's financial landscape. As an experienced
+                  and results-driven finance professional, Nitin Vadchhak brings
+                  a wealth of expertise to our organization. With a track record
+                  of driving financial growth and implementing sustainable
+                  strategies, Nitin Vadchhak ensures that our financial
+                  operations are robust, efficient, and aligned with our
+                  strategic goals. Nitin Vadchhak's strategic financial
+                  leadership enables MaaTecno Solutions to capitalize on growth
+                  opportunities while optimizing resource allocation and
+                  maintaining a healthy financial position. Collaborating
+                  closely with cross-functional teams, Nitin Vadchhak provides
+                  invaluable guidance and contributes to the overall success and
+                  growth of our organization. Join us as we navigate the
+                  financial landscape under the guidance of our esteemed CFO,
+                  Nitin Vadchhak. With Nitin Vadchhak's expertise, MaaTecno
+                  Solutions continues to excel as a financially strong and
+                  sustainable company, driving innovation and propelling us
+                  towards future success.
+                </p>
+                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+                <div class="line"></div>
+                <h6 class="name">Nitin Bhai</h6>
+                <h6 class="xs-font">CFO (Chief Financial Officer)</h6>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="textmonial-item">
+              <img
+                src="./assets/imgs/bhavesh.jpeg"
+                class="avatar"
+                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+              />
+              <div class="des">
+                <h5 class="ti-quote-left font-weight-bold"></h5>
+                <p>
+                  <strong
+                    >Introducing Our Managing Partner - Surat Location: Driving
+                    Vision and Empowering Success</strong
+                  ><br />
+                  We are excited to introduce Bhavesh Sonani, our esteemed
+                  Managing Partner at MaaTecno Solutions Pvt Ltd, based at our
+                  Surat location. With a strong vision for success and an
+                  unwavering commitment to excellence, Bhavesh Sonani plays a
+                  pivotal role in driving our organization's growth and
+                  empowering our team in Surat. With extensive experience and a
+                  proven track record, Bhavesh Sonani brings a deep
+                  understanding of the local market dynamics, enabling us to
+                  deliver tailored solutions to our clients in Surat. Through
+                  strategic guidance, Bhavesh Sonani ensures that MaaTecno
+                  Solutions remains at the forefront of technology solutions,
+                  while fostering a collaborative work environment that empowers
+                  our talented team to excel. Join us as we embark on an
+                  exciting journey of innovation and success under the
+                  leadership of our visionary Managing Partner, Bhavesh Sonani,
+                  at our Surat location.
+                </p>
+                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+                <div class="line"></div>
+                <h6 class="name">Bhavesh Sonani</h6>
+                <h6 class="xs-font">Managing Partner</h6>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="textmonial-item">
+              <img
+                src="./assets/imgs/Vijay.jpeg"
+                class="avatar"
+                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+              />
+              <div class="des">
+                <h5 class="ti-quote-left font-weight-bold"></h5>
+                <p>
+                  <strong
+                    >Introducing Our Managing Partner - Botad Location: Driving
+                    Vision and Empowering Success</strong
+                  ><br />
+                  We are thrilled to introduce Vijay Parmar, our esteemed
+                  Managing Partner at MaaTecno Solutions Pvt Ltd, based at our
+                  Botad location. With a strong vision for success and an
+                  unwavering commitment to excellence, Vijay Parmar plays a
+                  pivotal role in driving our organization's growth and
+                  empowering our team in Botad. With extensive experience and a
+                  proven track record, Vijay Parmar brings a deep understanding
+                  of the local market dynamics, enabling us to deliver tailored
+                  solutions to our clients in Botad and its surrounding areas.
+                  Through strategic guidance, Vijay Parmar ensures that MaaTecno
+                  Solutions remains at the forefront of technology solutions,
+                  while fostering a collaborative work environment that empowers
+                  our talented team to excel. Join us as we embark on an
+                  exciting journey of innovation and success under the
+                  leadership of our visionary Managing Partner, Vijay Parmar, at
+                  our Botad location.
+                </p>
+                <h5 class="ti-quote-left text-right font-weight-bold"></h5>
+
+                <div class="line"></div>
+                <h6 class="name">Vijay Parmar</h6>
+                <h6 class="xs-font">Managing Partner</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-overlay">
+      <div class="container">
+        <h3 class="section-title font-small">
+          Office Locations and Contact Details
+        </h3>
+        <br />
+        <div class="infos mb-4 mb-md-2" style="display: contents">
+          <div class="title">
+            <h6 class="subtitle font-weight-normal"></h6>
+            <h5>Main Office</h5>
+
+            <p class="font-small">
+              3RD FL, SHOP-303 AKSHAR SQUARE,NR AKSHAR WADI, DHABHOLI
+              ROAD,KATARGAM,SY-38 PAIKI 1.3.4 TPS-35 FP-35 SURAT-395004
+              GUJARAT,INDIA
+            </p>
+          </div>
+          <div class="socials">
+            <div class="row justify-content-between">
+              <div class="col">
+                <br />
+                <a class="d-block subtitle"
+                  ><i class="ti-location-pin"></i>Google Map Location</a
+                >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3718.9295518566782!2d72.81443881493611!3d21.23464198588725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDE0JzA0LjciTiA3MsKwNDgnNTkuOSJF!5e0!3m2!1sen!2sin!4v1688139560557!5m2!1sen!2sin"
+                  width="400"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="col">
+                <br />
+                <br />
+                <a class="d-block subtitle"
+                  ><i class="ti-user"></i>&nbsp;Jaydip Vadchhak</a
+                >
+                <a class="d-block subtitle"
+                  ><i class="ti-microphone">&nbsp;</i>+91 7862072893</a
+                >
+                <br />
+                <br />
+                <a class="d-block subtitle"
+                  ><i class="ti-user"></i>&nbsp;Deepak Nayak
+                </a>
+                <a class="d-block subtitle"
+                  ><i class="ti-microphone"></i>+91 6359096603</a
+                >
+                <br />
+                <br />
+                <a class="d-block subtitle"
+                  ><i class="ti-user"></i>&nbsp;Nitin Vadchhak</a
+                >
+                <a class="d-block subtitle"
+                  ><i class="ti-microphone"></i>+91 6351467653</a
+                >
+              </div>
+
+              <!-- <div class="col">
+                <h6 class="subtitle font-weight-normal mb-1">Social Media</h6>
+                <div class="social-links">
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-facebook"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-twitter-alt"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-google"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-pinterest-alt"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-instagram"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-rss"></i
+                  ></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="infos mb-4 mb-md-2" style="display: contents">
+          <div class="title">
+            <h6 class="subtitle font-weight-normal"></h6>
+            <h5>Surat Branch Office</h5>
+            <p class="font-small">
+              6'TH FLOOR, SHOP NO. 603, ELEPHANTA BUSINESS HUB, SINGANPORE,
+              KATARGAM, SURAT,GUJARAT,INDIA.
+            </p>
+          </div>
+          <div class="socials">
+            <div class="row justify-content-between">
+              <div class="col">
+                <br />
+                <a class="d-block subtitle"
+                  ><i class="ti-location-pin"></i>Google Map Location</a
+                >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3719.05852049646!2d72.80746161493595!3d21.22952788588998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDEzJzQ2LjMiTiA3MsKwNDgnMzQuNyJF!5e0!3m2!1sen!2sin!4v1688138928007!5m2!1sen!2sin"
+                  width="400"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="col">
+                <br />
+                <br />
+                <a class="d-block subtitle"
+                  ><i class="ti-user"></i>&nbsp;Bhavesh Sonani</a
+                >
+                <a class="d-block subtitle"
+                  ><i class="ti-microphone"></i>+91 9909312005</a
+                >
+              </div>
+
+              <!-- <div class="col">
+                <h6 class="subtitle font-weight-normal mb-1">Social Media</h6>
+                <div class="social-links">
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-facebook"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-twitter-alt"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-google"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-pinterest-alt"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-instagram"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-rss"></i
+                  ></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="infos mb-4 mb-md-2" style="display: contents">
+          <div class="title">
+            <h6 class="subtitle font-weight-normal"></h6>
+            <h5>Botad Branch Office</h5>
+            <p class="font-small">
+              NILKANTH COMPLEX 3RD FLOOR NEAR PALDIYA HOSPITAL, PALIYAD ROAD
+              BOTAD,GUJARAT,INDIA PIN CODE - 364710
+            </p>
+          </div>
+          <div class="socials">
+            <div class="row justify-content-between">
+              <div class="col">
+                <br />
+                <a class="d-block subtitle"
+                  ><i class="ti-location-pin"></i>Google Map Location</a
+                >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3694.748171556137!2d71.65776931495243!3d22.17365598538955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDEwJzI1LjIiTiA3McKwMzknMzUuOSJF!5e0!3m2!1sen!2sin!4v1688138768678!5m2!1sen!2sin"
+                  width="400"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+
+              <div class="col">
+                <br />
+                <br />
+                <a class="d-block subtitle"
+                  ><i class="ti-user"></i>&nbsp;Vijay Parmar</a
+                >
+                <a class="d-block subtitle"
+                  ><i class="ti-microphone"></i>+91 7600672005</a
+                >
+                <br />
+                <br />
+                <a class="d-block subtitle"
+                  ><i class="ti-user"></i>&nbsp;Yagnesh Parmar</a
+                >
+                <a class="d-block subtitle"
+                  ><i class="ti-microphone"></i>+91 6351570791</a
+                >
+              </div>
+
+              <!-- <div class="col">
+                <h6 class="subtitle font-weight-normal mb-1">Social Media</h6>
+                <div class="social-links">
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-facebook"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-twitter-alt"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-google"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-pinterest-alt"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-instagram"></i
+                  ></a>
+                  <a href="javascript:void(0)" class="link pr-1"
+                    ><i class="ti-rss"></i
+                  ></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+      </div>
+    </section>
+
+    <section class="section" id="blog">
+      <div class="container mb-3">
+        <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
+        <h3 class="section-title mb-5">Our Blog</h3>
+
+        <div class="blog-wrapper">
+          <div class="img-wrapper">
+            <img
+              src="./assets/imgs/img-3.jpg"
+              alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page"
+            />
+            <div class="date-container">
+              <h6 class="day">29</h6>
+              <h6 class="mun">Jun</h6>
+            </div>
+          </div>
+          <!-- <div class="txt-wrapper">
+            <h4 class="blog-title">Lorem ipsum dolor.</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+              vitae ducimus dolor sed numquam, assumenda non dolorem in facilis
+              eius alias voluptates, fugit maiores aspernatur ad rem saepe
+              molestiae consequuntur. adipisicing elit. Repellat nam placeat
+              laboriosam dolorum aperiam fuga voluptate, quis ea vel ab sunt
+              incidunt quasi, molestias atque deserunt voluptates quae
+              voluptatum sit.
+            </p>
+
+            <a href="#" class="badge badge-info">Graphic Design</a>
+
+            <h6 class="blog-footer">
+              <a href="javascript:void(0)"><i class="ti-user"></i> Admin </a> |
+              <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 213 </a>
+              |
+              <a href="javascript:void(0)"><i class="ti-comments"></i> 123</a>
+            </h6>
+          </div>
+          <div class="txt-wrapper">
+            <h4 class="blog-title">Lorem ipsum dolor.</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+              vitae ducimus dolor sed numquam, assumenda non dolorem in facilis
+              eius alias voluptates, fugit maiores aspernatur ad rem saepe
+              molestiae consequuntur. adipisicing elit. Repellat nam placeat
+              laboriosam dolorum aperiam fuga voluptate, quis ea vel ab sunt
+              incidunt quasi, molestias atque deserunt voluptates quae
+              voluptatum sit.
+            </p>
+
+            <a href="#" class="badge badge-info">Graphic Design</a>
+
+            <h6 class="blog-footer">
+              <a href="javascript:void(0)"><i class="ti-user"></i> Admin </a> |
+              <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 213 </a>
+              |
+              <a href="javascript:void(0)"><i class="ti-comments"></i> 123</a>
+            </h6>
+          </div> -->
+          <div class="txt-wrapper">
+            <h4 class="blog-title">Lorem ipsum dolor.</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+              vitae ducimus dolor sed numquam, assumenda non dolorem in facilis
+              eius alias voluptates, fugit maiores aspernatur ad rem saepe
+              molestiae consequuntur. adipisicing elit. Repellat nam placeat
+              laboriosam dolorum aperiam fuga voluptate, quis ea vel ab sunt
+              incidunt quasi, molestias atque deserunt voluptates quae
+              voluptatum sit.
+            </p>
+
+            <a href="#" class="badge badge-info">Graphic Design</a>
+
+            <h6 class="blog-footer">
+              <a href="javascript:void(0)"><i class="ti-user"></i> Admin </a> |
+              <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 213 </a>
+              |
+              <a href="javascript:void(0)"><i class="ti-comments"></i> 123</a>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section pb-0">
+      <div class="container">
+        <h6 class="xs-font mb-0">Anytime from Mon-Sat 8 am to 8 pm</h6>
+        <h3 class="section-title mb-5">Contact Us</h3>
+
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-8 col-lg-7">
+            <form
+              id="contactUsForm"
+              action="mailto:maatecnoworlditsolutions@gmail.com"
+              method="post"
+              enctype="text/plain"
+              class="contact-form"
             >
-              <span class="icon fa fa-caret-down"></span>Filter
-            </button>
-            <ul class="isotope-filters-list" id="isotope-3">
-              <!-- <li>
-                <a
-                  class="active"
-                  href="#"
-                  data-isotope-filter="*"
-                  data-isotope-group="gallery"
-                  >All</a
-                >
-              </li> -->
-              <li>
-                <a
-                  href="#"
-                  data-isotope-filter="Type 1"
-                  data-isotope-group="gallery"
-                  >Main Office</a
-                >
+              <div class="form-row">
+                <div class="col form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="col form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="5"
+                  class="form-control"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <input
+                  type="submit"
+                  class="btn btn-primary btn-block"
+                  value="Send Message"
+                  onsubmit=""
+                  onclick="myFunction()"
+                />
+              </div>
+            </form>
+            <script>
+              function myFunction() {
+                document.getElementById("myForm").reset();
+              }
+            </script>
+          </div>
+          <div class="col-md-4 d-none d-md-block order-1">
+            <ul class="list">
+              <li class="list-head">
+                <h6>CONTACT INFO</h6>
               </li>
-              <li>
-                <a
-                  href="#"
-                  data-isotope-filter="Type 2"
-                  data-isotope-group="gallery"
-                  >Elelphanta Office</a
-                >
+              <li class="list-body">
+                <p class="py-2">
+                  Contact us and we'll get back to you within 24 hours.
+                </p>
+                <!-- <p class="py-2">
+                  <i class="ti-location-pin"></i> PARTNER SHREERAM CORPOTARICN
+                  3RD FL, SHOP-303 AKSHAR SQUARE,NR AKSHAR WADI, DHABHOLI
+                  ROAD,KATARGAM,SY-38 PAIKI 1.3.4 TPS-35 FP-35 SURAT-395004
+                  GUJARAT,INDIA
+                </p> -->
+                <p class="py-2">
+                  <i class="ti-email"></i>maatecnoworlditsolutions@gmail.com
+                </p>
+                <!-- <p class="py-2">
+                  Deepak <i class="ti-microphone"></i> 6359096603
+                </p>
+                <p class="py-2">
+                  Jaydeep <i class="ti-microphone"></i> 7862072893
+                </p>
+                <p class="py-2">
+                  Nitin <i class="ti-microphone"></i> 6351467653
+                </p> -->
               </li>
-              <li>
-                <a
-                  href="#"
-                  data-isotope-filter="Type 3"
-                  data-isotope-group="gallery"
-                  >Botad Office</a
-                >
-              </li>
-              <!-- <li>
-                <a
-                  href="#"
-                  data-isotope-filter="Type 4"
-                  data-isotope-group="gallery"
-                  >UX and Design</a
-                >
-              </li> -->
             </ul>
           </div>
-          <div
-            class="row row-30 isotope"
-            data-isotope-layout="fitRows"
-            data-isotope-group="gallery"
-            data-lightgallery="group"
-          >
-          <!-- Main Office-->
-          <!--Image 1-->
-            <div
-              class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-              data-filter="Type 1"
-            >
-              <!-- Thumbnail Classic-->
-              <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure">
-                  <img
-                    src="images/mainoffice/1.jpeg"
-                    alt=""
-                    width="420"
-                    height="350"
-                  />
-                </div>
-                <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap">
-                    <a
-                      class="icon fl-bigmug-line-zoom60"
-                      href="images/mainoffice/1.jpeg"
-                      data-lightgallery="item"
-                      ><img
-                        src="images/mainoffice/1.jpeg"
-                        alt=""
-                        width="420"
-                        height="350"
-                    /></a>
-                    <h5 class="thumbnail-classic-title">
-                      <a href="#">I-1</a>
-                    </h5>
-                  </div>
-                  <p class="thumbnail-classic-text">
-                    We work hard on every app to deliver top-notch features with
-                    great UI that you won’t find anywhere else.
-                  </p>
-                </div>
-              </article>
-            </div>
-             <!--Image 2-->
-            
-            <div
-              class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-              data-filter="Type 1"
-              data-wow-delay=".1s"
-            >
-              <!-- Thumbnail Classic-->
-              <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure">
-                  <img
-                    src="images/mainoffice/5.jpeg"
-                    alt=""
-                    width="420"
-                    height="350"
-                  />
-                </div>
-                <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap">
-                    <a
-                      class="icon fl-bigmug-line-zoom60"
-                      href="images/mainoffice/5.jpeg"
-                      data-lightgallery="item"
-                      ><img
-                        src="images/mainoffice/5.jpeg"
-                        alt=""
-                        width="420"
-                        height="350"
-                    /></a>
-                    <h5 class="thumbnail-classic-title">
-                      <a href="#">I-5</a>
-                    </h5>
-                  </div>
-                  <p class="thumbnail-classic-text">
-                    We work hard on every app to deliver top-notch features with
-                    great UI that you won’t find anywhere else.
-                  </p>
-                </div>
-              </article>
-            </div>
-             <!--Image 3-->
-            <div
-              class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-              data-filter="Type 1"
-              data-wow-delay=".2s"
-            >
-              <!-- Thumbnail Classic-->
-              <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure">
-                  <img
-                    src="images/mainoffice/6.jpeg"
-                    alt=""
-                    width="420"
-                    height="350"
-                  />
-                </div>
-                <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap">
-                    <a
-                      class="icon fl-bigmug-line-zoom60"
-                      href="images/mainoffice/6.jpeg"
-                      data-lightgallery="item"
-                      ><img
-                        src="images/mainoffice/6.jpeg"
-                        alt=""
-                        width="420"
-                        height="350"
-                    /></a>
-                    <h5 class="thumbnail-classic-title">
-                      <a href="#">I-6</a>
-                    </h5>
-                  </div>
-                  <p class="thumbnail-classic-text">
-                    We work hard on every app to deliver top-notch features with
-                    great UI that you won’t find anywhere else.
-                  </p>
-                </div>
-              </article>
-            </div>
-            <!-- image 4 -->
-            <div
-            class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-            data-filter="Type 1"
-            data-wow-delay=".1s"
-          >
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure">
-                <img
-                  src="images/mainoffice/8.jpeg"
-                  alt=""
-                  width="420"
-                  height="350"
-                />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap">
-                  <a
-                    class="icon fl-bigmug-line-zoom60"
-                    href="images/mainoffice/8.jpeg"
-                    data-lightgallery="item"
-                    ><img
-                      src="images/mainoffice/8.jpeg"
-                      alt=""
-                      width="420"
-                      height="350"
-                  /></a>
-                  <h5 class="thumbnail-classic-title">
-                    <a href="#">I-8</a>
-                  </h5>
-                </div>
-                <p class="thumbnail-classic-text">
-                  We work hard on every app to deliver top-notch features with
-                  great UI that you won’t find anywhere else.
-                </p>
-              </div>
-            </article>
-          </div>
-          <!-- image 5 -->
-            <div
-              class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-              data-filter="Type 1"
-              data-wow-delay=".3s"
-            >
-              <!-- Thumbnail Classic-->
-              <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure">
-                  <img
-                    src="images/mainoffice/7.jpeg"
-                    alt=""
-                    width="420"
-                    height="350"
-                  />
-                </div>
-                <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap">
-                    <a
-                      class="icon fl-bigmug-line-zoom60"
-                      href="images/mainoffice/7.jpeg"
-                      data-lightgallery="item"
-                      ><img
-                        src="images/mainoffice/7.jpeg"
-                        alt=""
-                        width="420"
-                        height="350"
-                    /></a>
-                    <h5 class="thumbnail-classic-title">
-                      <a href="#">I-7</a>
-                    </h5>
-                  </div>
-                  <p class="thumbnail-classic-text">
-                    We work hard on every app to deliver top-notch features with
-                    great UI that you won’t find anywhere else.
-                  </p>
-                </div>
-              </article>
-            </div>
-            <!-- image 6 -->
-            <div
-              class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft"
-              data-filter="Type 1"
-            >
-              <!-- Thumbnail Classic-->
-              <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure">
-                  <img
-                    src="images/mainoffice/9.jpeg"
-                    alt=""
-                    width="420"
-                    height="350"
-                  />
-                </div>
-                <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap">
-                    <a
-                      class="icon fl-bigmug-line-zoom60"
-                      href="images/mainoffice/9.jpeg"
-                      data-lightgallery="item"
-                      ><img
-                        src="images/mainoffice/9.jpeg"
-                        alt=""
-                        width="420"
-                        height="350"
-                    /></a>
-                    <h5 class="thumbnail-classic-title">
-                      <a href="#">I-9</a>
-                    </h5>
-                  </div>
-                  <p class="thumbnail-classic-text">
-                    We work hard on every app to deliver top-notch features with
-                    great UI that you won’t find anywhere else.
-                  </p>
-                </div>
-              </article>
-            </div>
-   <!-- image 7 -->
-            <div
-              class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft"
-              data-filter="Type 1"
-              data-wow-delay=".1s"
-            >
-              <!-- Thumbnail Classic-->
-              <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure">
-                  <img
-                    src="images/mainoffice/10.jpeg"
-                    alt=""
-                    width="420"
-                    height="350"
-                  />
-                </div>
-                <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap">
-                    <a
-                      class="icon fl-bigmug-line-zoom60"
-                      href="images/mainoffice/10.jpeg"
-                      data-lightgallery="item"
-                      ><img
-                        src="images/mainoffice/10.jpeg"
-                        alt=""
-                        width="420"
-                        height="350"
-                    /></a>
-                    <h5 class="thumbnail-classic-title">
-                      <a href="#">MPlanner</a>
-                    </h5>
-                  </div>
-                  <p class="thumbnail-classic-text">
-                    We work hard on every app to deliver top-notch features with
-                    great UI that you won’t find anywhere else.
-                  </p>
-                </div>
-              </article>
-            </div>
-   <!-- image 8 -->
-            <div
-            class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft"
-            data-filter="Type 1"
-            data-wow-delay=".1s"
-          >
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-classic thumbnail-md">
-              <div class="thumbnail-classic-figure">
-                <img
-                  src="images/mainoffice/11.jpeg"
-                  alt=""
-                  width="420"
-                  height="350"
-                />
-              </div>
-              <div class="thumbnail-classic-caption">
-                <div class="thumbnail-classic-title-wrap">
-                  <a
-                    class="icon fl-bigmug-line-zoom60"
-                    href="images/mainoffice/11.jpeg"
-                    data-lightgallery="item"
-                    ><img
-                      src="images/mainoffice/11.jpeg"
-                      alt=""
-                      width="420"
-                      height="350"
-                  /></a>
-                  <h5 class="thumbnail-classic-title">
-                    <a href="#">MPlanner</a>
-                  </h5>
-                </div>
-                <p class="thumbnail-classic-text">
-                  We work hard on every app to deliver top-notch features with
-                  great UI that you won’t find anywhere else.
-                </p>
-              </div>
-            </article>
-          </div>
-          
-          <!-- elephante office  -->
-
-<!--Image 1-->
-<div
-class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-data-filter="Type 2"
->
-<!-- Thumbnail Classic-->
-<article class="thumbnail thumbnail-classic thumbnail-md">
-  <div class="thumbnail-classic-figure">
-    <img
-      src="images/elephanta/1.jpeg"
-      alt=""
-      width="420"
-      height="350"
-    />
-  </div>
-  <div class="thumbnail-classic-caption">
-    <div class="thumbnail-classic-title-wrap">
-      <a
-        class="icon fl-bigmug-line-zoom60"
-        href="images/elephanta/1.jpeg"
-        data-lightgallery="item"
-        ><img
-          src="images/elephanta/1.jpeg"
-          alt=""
-          width="420"
-          height="350"
-      /></a>
-      <h5 class="thumbnail-classic-title">
-        <a href="#">I-1</a>
-      </h5>
-    </div>
-    <p class="thumbnail-classic-text">
-      We work hard on every app to deliver top-notch features with
-      great UI that you won’t find anywhere else.
-    </p>
-  </div>
-</article>
-</div>
-<!--Image 2-->
-
-<div
-class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-data-filter="Type 2"
-data-wow-delay=".1s"
->
-<!-- Thumbnail Classic-->
-<article class="thumbnail thumbnail-classic thumbnail-md">
-  <div class="thumbnail-classic-figure">
-    <img
-      src="images/elephanta/2.jpeg"
-      alt=""
-      width="420"
-      height="350"
-    />
-  </div>
-  <div class="thumbnail-classic-caption">
-    <div class="thumbnail-classic-title-wrap">
-      <a
-        class="icon fl-bigmug-line-zoom60"
-        href="images/elephanta/2.jpeg"
-        data-lightgallery="item"
-        ><img
-          src="images/elephanta/2.jpeg"
-          alt=""
-          width="420"
-          height="350"
-      /></a>
-      <h5 class="thumbnail-classic-title">
-        <a href="#">I-5</a>
-      </h5>
-    </div>
-    <!-- <p class="thumbnail-classic-text">
-      We work hard on every app to deliver top-notch features with
-      great UI that you won’t find anywhere else.
-    </p> -->
-  </div>
-</article>
-</div>
-<!--Image 3-->
-<div
-class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-data-filter="Type 2"
-data-wow-delay=".2s"
->
-<!-- Thumbnail Classic-->
-<article class="thumbnail thumbnail-classic thumbnail-md">
-  <div class="thumbnail-classic-figure">
-    <img
-      src="images/elephanta/3.jpeg"
-      alt=""
-      width="420"
-      height="350"
-    />
-  </div>
-  <div class="thumbnail-classic-caption">
-    <div class="thumbnail-classic-title-wrap">
-      <a
-        class="icon fl-bigmug-line-zoom60"
-        href="images/elephanta/3.jpeg"
-        data-lightgallery="item"
-        ><img
-          src="images/elephanta/3.jpeg"
-          alt=""
-          width="420"
-          height="350"
-      /></a>
-      <h5 class="thumbnail-classic-title">
-        <a href="#">I-6</a>
-      </h5>
-    </div>
-    <p class="thumbnail-classic-text">
-      We work hard on every app to deliver top-notch features with
-      great UI that you won’t find anywhere else.
-    </p>
-  </div>
-</article>
-</div>
-<!-- image 4 -->
-<div
-class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-data-filter="Type 2"
-data-wow-delay=".1s"
->
-<!-- Thumbnail Classic-->
-<article class="thumbnail thumbnail-classic thumbnail-md">
-<div class="thumbnail-classic-figure">
-  <img
-    src="images/elephanta/4.jpeg"
-    alt=""
-    width="420"
-    height="350"
-  />
-</div>
-<div class="thumbnail-classic-caption">
-  <div class="thumbnail-classic-title-wrap">
-    <a
-      class="icon fl-bigmug-line-zoom60"
-      href="images/elephanta/4.jpeg"
-      data-lightgallery="item"
-      ><img
-        src="images/elephanta/4.jpeg"
-        alt=""
-        width="420"
-        height="350"
-    /></a>
-    <h5 class="thumbnail-classic-title">
-      <a href="#">I-8</a>
-    </h5>
-  </div>
-  <p class="thumbnail-classic-text">
-    We work hard on every app to deliver top-notch features with
-    great UI that you won’t find anywhere else.
-  </p>
-</div>
-</article>
-</div>
-<!-- image 5 -->
-<div
-class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight"
-data-filter="Type 2"
-data-wow-delay=".3s"
->
-<!-- Thumbnail Classic-->
-<article class="thumbnail thumbnail-classic thumbnail-md">
-  <div class="thumbnail-classic-figure">
-    <img
-      src="images/elephanta/6.jpeg"
-      alt=""
-      width="420"
-      height="350"
-    />
-  </div>
-  <div class="thumbnail-classic-caption">
-    <div class="thumbnail-classic-title-wrap">
-      <a
-        class="icon fl-bigmug-line-zoom60"
-        href="images/elephanta/6.jpeg"
-        data-lightgallery="item"
-        ><img
-          src="images/elephanta/6.jpeg"
-          alt=""
-          width="420"
-          height="350"
-      /></a>
-      <h5 class="thumbnail-classic-title">
-        <a href="#">I-7</a>
-      </h5>
-    </div>
-    <p class="thumbnail-classic-text">
-      We work hard on every app to deliver top-notch features with
-      great UI that you won’t find anywhere else.
-    </p>
-  </div>
-</article>
-</div>
-
-<!-- Botad Office  -->
-
-<!-- image 6 -->
-<div
-class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft"
-data-filter="Type 3"
->
-<!-- Thumbnail Classic-->
-<article class="thumbnail thumbnail-classic thumbnail-md">
-  <div class="thumbnail-classic-figure">
-    <img
-      src="images/botad/1.jpeg"
-      alt=""
-      width="420"
-      height="350"
-    />
-  </div>
-  <div class="thumbnail-classic-caption">
-    <div class="thumbnail-classic-title-wrap">
-      <a
-        class="icon fl-bigmug-line-zoom60"
-        href="images/botad/1.jpeg"
-        data-lightgallery="item"
-        ><img
-          src="images/botad/1.jpeg"
-          alt=""
-          width="420"
-          height="350"
-      /></a>
-      <h5 class="thumbnail-classic-title">
-        <a href="#">I-9</a>
-      </h5>
-    </div>
-    <p class="thumbnail-classic-text">
-      We work hard on every app to deliver top-notch features with
-      great UI that you won’t find anywhere else.
-    </p>
-  </div>
-</article>
-</div>
-<!-- image 7 -->
-<div
-class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft"
-data-filter="Type 3"
-data-wow-delay=".1s"
->
-<!-- Thumbnail Classic-->
-<article class="thumbnail thumbnail-classic thumbnail-md">
-  <div class="thumbnail-classic-figure">
-    <img
-      src="images/botad/2.jpeg"
-      alt=""
-      width="420"
-      height="350"
-    />
-  </div>
-  <div class="thumbnail-classic-caption">
-    <div class="thumbnail-classic-title-wrap">
-      <a
-        class="icon fl-bigmug-line-zoom60"
-        href="images/botad/2.jpeg"
-        data-lightgallery="item"
-        ><img
-          src="images/botad/2.jpeg"
-          alt=""
-          width="420"
-          height="350"
-      /></a>
-      <h5 class="thumbnail-classic-title">
-        <a href="#">MPlanner</a>
-      </h5>
-    </div>
-    <p class="thumbnail-classic-text">
-      We work hard on every app to deliver top-notch features with
-      great UI that you won’t find anywhere else.
-    </p>
-  </div>
-</article>
-</div>
-<!-- image 8 -->
-<div
-class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft"
-data-filter="Type 3"
-data-wow-delay=".1s"
->
-<!-- Thumbnail Classic-->
-<article class="thumbnail thumbnail-classic thumbnail-md">
-<div class="thumbnail-classic-figure">
-  <img
-    src="images/botad/3.jpeg"
-    alt=""
-    width="420"
-    height="350"
-  />
-</div>
-<div class="thumbnail-classic-caption">
-  <div class="thumbnail-classic-title-wrap">
-    <a
-      class="icon fl-bigmug-line-zoom60"
-      href="images/botad/3.jpeg"
-      data-lightgallery="item"
-      ><img
-        src="images/botad/3.jpeg"
-        alt=""
-        width="420"
-        height="350"
-    /></a>
-    <h5 class="thumbnail-classic-title">
-      <a href="#">MPlanner</a>
-    </h5>
-  </div>
-  <p class="thumbnail-classic-text">
-    We work hard on every app to deliver top-notch features with
-    great UI that you won’t find anywhere else.
-  </p>
-</div>
-</article>
-</div>
-   <!-- image 9 -->
-            <div
-              class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft"
-              data-filter="Type 3"
-              data-wow-delay=".2s"
-            >
-              <!-- Thumbnail Classic-->
-              <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure">
-                  <img
-                    src="images/botad/5.jpeg"
-                    alt=""
-                    width="420"
-                    height="350"
-                  />
-                </div>
-                <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap">
-                    <a
-                      class="icon fl-bigmug-line-zoom60"
-                      href="images/botad/5.jpeg"
-                      data-lightgallery="item"
-                      ><img
-                        src="images/botad/5.jpeg"
-                        alt=""
-                        width="420"
-                        height="350"
-                    /></a>
-                    <h5 class="thumbnail-classic-title">
-                      <a href="#">Alice Messenger</a>
-                    </h5>
-                  </div>
-                  <p class="thumbnail-classic-text">
-                    We work hard on every app to deliver top-notch features with
-                    great UI that you won’t find anywhere else.
-                  </p>
-                </div>
-              </article>
-            </div>
-               <!-- image 10 -->
-            <div
-              class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft"
-              data-filter="Type 3"
-              data-wow-delay=".3s"
-            >
-              <!-- Thumbnail Classic-->
-              <article class="thumbnail thumbnail-classic thumbnail-md">
-                <div class="thumbnail-classic-figure">
-                  <img
-                    src="images/botad/7.jpeg"
-                    alt=""
-                    width="420"
-                    height="350"
-                  />
-                </div>
-                <div class="thumbnail-classic-caption">
-                  <div class="thumbnail-classic-title-wrap">
-                    <a
-                      class="icon fl-bigmug-line-zoom60"
-                      href="images/botad/7.jpeg"
-                      data-lightgallery="item"
-                      ><img
-                        src="images/botad/7.jpeg"
-                        alt=""
-                        width="420"
-                        height="350"
-                    /></a>
-                    <h5 class="thumbnail-classic-title">
-                      <a href="#">WiseMoney</a>
-                    </h5>
-                  </div>
-                  <p class="thumbnail-classic-text">
-                    We work hard on every app to deliver top-notch features with
-                    great UI that you won’t find anywhere else.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
         </div>
-      </section>
 
-      <!-- Years of experience-->
-      <section class="section section-sm bg-default">
-        <div class="container">
-          <div
-            class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left"
-          >
-            <div class="col-md-6 col-lg-5 col-xl-4 text-center">
-              <a class="text-img" href="#">
-                <div id="particles-js"></div>
-                <span class="counter">4</span></a
-              >
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
-              <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
-                <h3 class="title-decoration-lines-left">Years of Experience</h3>
-                <p class="text-gray-500">
-                  MaaTecnoWorld is a team of highly experienced freelancers and
-                  have a knowledge on various kinds of work in freelance networks.
-                </p>
-                <a class="button button-secondary button-pipaluk" href="https://prod.uhrs.playmsn.com/uhrs/" target="_blank"
-                  >Start Work</a
+        <footer class="footer mt-5 border-top">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 text-center text-md-left">
+              <p class="mb-0">
+                Copyright
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                &copy;
+                <a target="_blank" href="https://techlearnershub.com/"
+                  >maatechnoworld</a
                 >
-              </div>
-            </div>
-            <div
-              class="col-sm-10 col-md-8 col-lg-6 col-xl-4 wow fadeInRight"
-              data-wow-delay=".1s"
-            >
-              <div
-                class="row justify-content-center border-2-column offset-top-xl-26"
-              >
-                <div class="col-9 col-sm-6">
-                  <div class="counter-amy">
-                    <div class="counter-amy-number">
-                      <span class="counter">2</span
-                      ><span class="symbol">k</span>
-                    </div>
-                    <h6 class="counter-amy-title">Projects Delivered</h6>
-                  </div>
-                </div>
-                <div class="col-9 col-sm-6">
-                  <div class="counter-amy">
-                    <div class="counter-amy-number">
-                      <span class="counter">40</span>
-                    </div>
-                    <h6 class="counter-amy-title">Consultants</h6>
-                  </div>
-                </div>
-                <div class="col-9 col-sm-6">
-                  <div class="counter-amy">
-                    <div class="counter-amy-number">
-                      <span class="counter">12</span>
-                    </div>
-                    <h6 class="counter-amy-title">Awards won</h6>
-                  </div>
-                </div>
-                <div class="col-9 col-sm-6">
-                  <div class="counter-amy">
-                    <div class="counter-amy-number">
-                      <span class="counter">160</span>
-                    </div>
-                    <h6 class="counter-amy-title">Employees</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
-          </div>
-        </div>
-      </section>
-
-      <!-- Meet The Team-->
-      <section class="section section-sm section-fluid bg-default" id="team">
-        <div class="container-fluid">
-          <h2>Meet The Team</h2>
-          <div class="row row-sm row-30 justify-content-center">
-            <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight">
-              <!-- Team Classic-->
-              <article class="team-classic team-classic-lg">
-                <a class="team-classic-figure" href="#"
-                  ><img
-                    src="images/jaydeep2.jpeg"
-                    alt=""
-                    width="420"
-                    height="424"
-                /></a>
-                <div class="team-classic-caption">
-                  <h4 class="team-classic-name">
-                    <a href="#jaydip" data-toggle="modal">Jaydip Vadchhak</a>
-                  </h4>
-                  <p class="team-classic-status">
-                    Founder & CTO(Chief Technological Officer)
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div
-              class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight"
-              data-wow-delay=".1s"
-            >
-              <!-- Team Classic-->
-              <article class="team-classic team-classic-lg">
-                <a class="team-classic-figure" href="#"
-                  ><img
-                    src="images/Deepak2.jpg"
-                    alt=""
-                    width="420"
-                    height="424"
-                /></a>
-                <div class="team-classic-caption">
-                  <h4 class="team-classic-name">
-                    <a href="#deepak" data-toggle="modal">Deepak Nayak</a>
-                  </h4>
-                  <p class="team-classic-status">
-                    Co-Founder & COO(Chief Operational Officer)
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div
-              class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight"
-              data-wow-delay=".2s"
-            >
-              <!-- Team Classic-->
-              <article class="team-classic team-classic-lg">
-                <a class="team-classic-figure" href="#"
-                  ><img src="images/kano.jpeg" alt="" width="420" height="424"
-                /></a>
-                <div class="team-classic-caption">
-                  <h4 class="team-classic-name">
-                    <a href="#nitin" data-toggle="modal">Nitin Vadchhak</a>
-                  </h4>
-                  <p class="team-classic-status">
-                    CFO(Chief Financial Officer)
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div
-              class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight"
-              data-wow-delay=".3s"
-            >
-              <!-- Team Classic-->
-              <article class="team-classic team-classic-lg">
-                <a class="team-classic-figure" href="#"
-                  ><img
-                    src="images/bhavesh.jpeg"
-                    alt=""
-                    width="420"
-                    height="424"
-                /></a>
-                <div class="team-classic-caption">
-                  <h4 class="team-classic-name">
-                    <a href="#bhavesh" data-toggle="modal">Bhavesh Sonani</a>
-                  </h4>
-                  <p class="team-classic-status">Managing Partner</p>
-                </div>
-              </article>
-            </div>
-            <div
-              class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight"
-              data-wow-delay=".4s"
-            >
-              <!-- Team Classic-->
-              <article class="team-classic team-classic-lg">
-                <a class="team-classic-figure" href="#"
-                  ><img
-                    src="images/Vijay2.jpeg"
-                    alt=""
-                    width="420"
-                    height="424"
-                /></a>
-                <div class="team-classic-caption">
-                  <h4 class="team-classic-name">
-                    <a href="#vijay" data-toggle="modal">Vijay Parmar</a>
-                  </h4>
-                  <p class="team-classic-status">Managing Partner</p>
-                </div>
-              </article>
-            </div>
-            <div
-              class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight"
-              data-wow-delay=".5s"
-            >
-              <!--Team Classic-->
-              <article class="team-classic team-classic-lg">
-                <a class="team-classic-figure" href="#"
-                  ><img src="images/siv.jpg" alt="" width="420" height="424"
-                /></a>
-                <div class="team-classic-caption">
-                  <h4 class="team-classic-name">
-                    <a href="#sivsankar" data-toggle="modal">Sivsankar Nayak</a>
-                  </h4>
-                  <p class="team-classic-status">
-                    CIO(Chief Information Officer) & Senior Software Developer
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- You dream — we embody-->
-      <section class="section section-sm bg-default text-md-left">
-        <div class="container">
-          <div
-            class="row row-50 align-items-center justify-content-center justify-content-xl-between"
-          >
-            <div class="col-lg-6 col-xl-5 wow fadeInLeft">
-              <h2>Get More With Us</h2>
-              <!-- Bootstrap tabs-->
-              <div
-                class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left"
-                id="tabs-6"
-              >
-                <!-- Nav tabs-->
-                <ul class="nav nav-tabs">
-                  <li class="nav-item" role="presentation">
-                    <a
-                      class="nav-link nav-link-big active"
-                      href="#tabs-6-1"
-                      data-toggle="tab"
-                      >01</a
-                    >
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <a
-                      class="nav-link nav-link-big"
-                      href="#tabs-6-2"
-                      data-toggle="tab"
-                      >02</a
-                    >
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <a
-                      class="nav-link nav-link-big"
-                      href="#tabs-6-3"
-                      data-toggle="tab"
-                      >03</a
-                    >
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <a
-                      class="nav-link nav-link-big"
-                      href="#tabs-6-4"
-                      data-toggle="tab"
-                      >04</a
-                    >
-                  </li>
-                </ul>
-                <!-- Tab panes-->
-                <div class="tab-content">
-                  <div class="tab-pane fade show active" id="tabs-6-1">
-                    <h5 class="font-weight-normal">Search Relevance</h5>
-                    <p>
-                      We regularly upload new free apps to our website, which is
-                      fully accessible to our clients and subscribers. You can
-                      also find out about free apps in our blog.
-                    </p>
-                    <div class="group-sm group-middle">
-                      <a
-                        class="button button-secondary button-pipaluk"
-                        href="https://prod.uhrs.playmsn.com/uhrs/"
-                        target="_blank"
-                        data-toggle="modal"
-                        >Start Work</a
-                      ><a
-                        class="button button-default-outline button-wapasha"
-                        href="#"
-                        >Learn More</a
-                      >
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-2">
-                    <h5 class="font-weight-normal">Image Annotation</h5>
-                    <p>
-                      Every app we develop has built-in social support that
-                      allows you to stay connected to your accounts on Facebook,
-                      Instagram, Twitter and other networks.
-                    </p>
-                    <div class="group-sm group-middle">
-                      <a
-                        class="button button-secondary button-pipaluk"
-                        href="https://prod.uhrs.playmsn.com/uhrs/"
-                        target="_blank"
-                        data-toggle="modal"
-                        >Start Work</a
-                      ><a
-                        class="button button-default-outline button-wapasha"
-                        href="#"
-                        >Learn More</a
-                      >
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-3">
-                    <h5 class="font-weight-normal">TEXT Annotation</h5>
-                    <p>
-                      Every customer of RatherApp can get access to our friendly
-                      and qualified 24/7 support via chat or phone. Fell free to
-                      ask us any question!
-                    </p>
-                    <div class="group-sm group-middle">
-                      <a
-                        class="button button-secondary button-pipaluk"
-                        href="https://prod.uhrs.playmsn.com/uhrs/"
-                        target="_blank"
-                        target="_blank"
-                        data-toggle="modal"
-                        >Start Work</a
-                      ><a
-                        class="button button-default-outline button-wapasha"
-                        href="#"
-                        >Learn More</a
-                      >
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-4">
-                    <h5 class="font-weight-normal">Translation Language Projects</h5>
-                    <p>
-                      All our apps are designed to have great usability in order
-                      to easily operate our applications. That is why our
-                      software has high ratings and lots of awards.
-                    </p>
-                    <div class="group-sm group-middle">
-                      <a
-                        class="button button-secondary button-pipaluk"
-                        href="https://prod.uhrs.playmsn.com/uhrs/"
-                        target="_blank"
-                        data-toggle="modal"
-                        >Start Work</a
-                      ><a
-                        class="button button-default-outline button-wapasha"
-                        href="#"
-                        >Learn More</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay=".1s">
-              <div
-                class="owl-carousel owl-style-1"
-                data-items="2"
-                data-stage-padding="0"
-                data-loop="true"
-                data-margin="0"
-                data-mouse-drag="true"
-                data-autoplay="true"
-              >
-                <a class="box-device" href="#"
-                  ><img
-                    src="images/slide-1.jpeg"
-                    alt=""
-                    width="313"
-                    height="580" /></a
-                ><a class="box-device" href="#"
-                  ><img
-                    src="images/slide-2.jpeg"
-                    alt=""
-                    width="313"
-                    height="580" /></a
-                ><a class="box-device" href="#"
-                  ><img
-                    src="images/slide-3.jpeg"
-                    alt=""
-                    width="313"
-                    height="580" /></a
-                ><a class="box-device" href="#"
-                  ><img
-                    src="images/slide-4.jpeg"
-                    alt=""
-                    width="313"
-                    height="580"
-                /></a>
-                <a class="box-device" href="#"
-                  ><img
-                    src="images/slide5.jpeg"
-                    alt=""
-                    width="313"
-                    height="580"
-                /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- What people Say--
-      <section
-        class="section section-sm section-bottom-70 section-fluid bg-default"
-      >
-        <div class="container-fluid">
-          <h2>What people Say</h2>
-          <div class="row row-50 row-sm">
-            <div class="col-md-6 col-xl-4 wow fadeInRight">
-              
-              <article class="quote-modern quote-modern-custom">
-                <div class="unit unit-spacing-md align-items-center">
-                  <div class="unit-left">
-                    <a class="quote-modern-figure" href="#"
-                      ><img
-                        class="img-circles"
-                        src="images/user-11-75x75.jpg"
-                        alt=""
-                        width="75"
-                        height="75"
-                    /></a>
-                  </div>
-                  <div class="unit-body">
-                    <h4 class="quote-modern-cite">
-                      <a href="#">Catherine Williams</a>
-                    </h4>
-                    <p class="quote-modern-status">Regular client</p>
-                  </div>
-                </div>
-                <div class="quote-modern-text">
-                  <p class="q">
-                    RatherApp offers a high caliber of resources skilled in
-                    Microsoft Azure .NET, mobile and Quality Assurance. They
-                    became our true business partners over the past three years.
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
-          
-              <article class="quote-modern quote-modern-custom">
-                <div class="unit unit-spacing-md align-items-center">
-                  <div class="unit-left">
-                    <a class="quote-modern-figure" href="#"
-                      ><img
-                        class="img-circles"
-                        src="images/user-12-75x75.jpg"
-                        alt=""
-                        width="75"
-                        height="75"
-                    /></a>
-                  </div>
-                  <div class="unit-body">
-                    <h4 class="quote-modern-cite">
-                      <a href="#">Rupert Wood</a>
-                    </h4>
-                    <p class="quote-modern-status">Regular client</p>
-                  </div>
-                </div>
-                <div class="quote-modern-text">
-                  <p class="q">
-                    RatherApp powered us with a competent team to develop
-                    products for banking services. The team has been delivering
-                    results within budget and time, which is amazing.
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".2s">
-
-              <article class="quote-modern quote-modern-custom">
-                <div class="unit unit-spacing-md align-items-center">
-                  <div class="unit-left">
-                    <a class="quote-modern-figure" href="#"
-                      ><img
-                        class="img-circles"
-                        src="images/user-20-75x75.jpg"
-                        alt=""
-                        width="75"
-                        height="75"
-                    /></a>
-                  </div>
-                  <div class="unit-body">
-                    <h4 class="quote-modern-cite">
-                      <a href="#">Samantha Brown</a>
-                    </h4>
-                    <p class="quote-modern-status">Regular client</p>
-                  </div>
-                </div>
-                <div class="quote-modern-text">
-                  <p class="q">
-                    RatherApp is a highly skilled and uniquely capable firm with
-                    multitudes of talent on-board. We have collaborated on a
-                    number of diverse projects that have been a great success.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section> --->
-
-      <!-- Pricing-->
-
-
-      <!-- Latest blog posts-
-      <section class="section section-sm bg-default" id="news">
-        <div class="container">
-          <h2>Latest blog posts</h2>
-          <div class="row row-45">
-            <div class="col-sm-6 col-lg-4 wow fadeInLeft">
-          
-              <article class="post post-modern">
-                <a class="post-modern-figure" href="#"
-                  ><img
-                    src="images/post-10-370x307.jpg"
-                    alt=""
-                    width="370"
-                    height="307"
-                  />
-                  <div class="post-modern-time">
-                    <time datetime="2019-07-04"
-                      ><span class="post-modern-time-month">07</span
-                      ><span class="post-modern-time-number">04</span></time
-                    >
-                  </div></a
-                >
-                <h4 class="post-modern-title">
-                  <a href="#">Benefits of Async/Await</a>
-                </h4>
-                <p class="post-modern-text">
-                  Asynchronous functions are a good and bad thing in JavaScript.
-                  The good side is that asynchronous functions are non-blocking
-                  and...
-                </p>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".1s">
-   
-              <article class="post post-modern">
-                <a class="post-modern-figure" href="#"
-                  ><img
-                    src="images/post-11-370x307.jpg"
-                    alt=""
-                    width="370"
-                    height="307"
-                  />
-                  <div class="post-modern-time">
-                    <time datetime="2019-07-17"
-                      ><span class="post-modern-time-month">07</span
-                      ><span class="post-modern-time-number">17</span></time
-                    >
-                  </div></a
-                >
-                <h4 class="post-modern-title">
-                  <a href="#">Key Considerations of iPaaS</a>
-                </h4>
-                <p class="post-modern-text">
-                  Digital transformation requires cloud appropriate adoption,
-                  legacy IT systems modernization, and Agile-based methodologies
-                  for faster...
-                </p>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
-
-              <article class="post post-modern">
-                <a class="post-modern-figure" href="#"
-                  ><img
-                    src="images/post-12-370x307.jpg"
-                    alt=""
-                    width="370"
-                    height="307"
-                  />
-                  <div class="post-modern-time">
-                    <time datetime="2019-07-22"
-                      ><span class="post-modern-time-month">07</span
-                      ><span class="post-modern-time-number">22</span></time
-                    >
-                  </div></a
-                >
-                <h4 class="post-modern-title">
-                  <a href="#">Never Stop Optimizing Your Code</a>
-                </h4>
-                <p class="post-modern-text">
-                  In this tutorial, we will discuss the Hibernate Query
-                  Language. HQL is an object-oriented query language. Hibernate
-                  Query...
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section> --->
-    
-
-
-
-      <!-- Contact information-->
-      <section class="section section-sm bg-default">
-        <div class="container">
-          <div class="row row-30 justify-content-center">
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div
-                    class="box-contacts-icon fl-bigmug-line-cellphone55"
-                  ></div>
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link">
-                    <p>Jaydip Vadchhak</p>
-                    <a href="tel:#">+91 7862072893</a>
-                  </p>
-                  <p class="box-contacts-link">
-                    <p>Deepak Nayak</p>
-                    <a href="tel:#">+91 6359096603</a>
-                  </p>
-                  <p class="box-contacts-link">
-                    <p>Nitin Vadchhak</p>
-                    <a href="tel:#">+91 6351467653</a>
-                  </p>
-                  <!-- <p class="box-contacts-link">
-                    <a href="tel:#">+1 323-888-4554</a>
-                  </p> -->
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link">
-                    <a href="#"
-                      >3RD FL, SHOP-303 AKSHAR SQUARE,NR AKSHAR WADI, DHABHOLI
-              ROAD,KATARGAM,SY-38 PAIKI 1.3.4 TPS-35 FP-35 SURAT-395004
-              GUJARAT,INDIA7</a
-                    >
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-zoom60"></div>
-                <!-- <p>Main Office Map Location</p> -->
-                <div class="box-contacts-decor"></div>
-
-         <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d14875.718206002955!2d72.814439!3d21.234642!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDE0JzA0LjciTiA3MsKwNDgnNTkuOSJF!5e0!3m2!1sen!2sin!4v1688988578429!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section section-sm bg-default">
-        <div class="container">
-          <div class="row row-30 justify-content-center">
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div
-                    class="box-contacts-icon fl-bigmug-line-cellphone55"
-                  ></div>
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link">
-                    <p>Bhavesh Sonani</p>
-                    <a href="tel:#">+91 9909312005</a>
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link">
-                    <a href="#"
-                      > 6'TH FLOOR, SHOP NO. 603, ELEPHANTA BUSINESS HUB, SINGANPORE,
-                      KATARGAM, SURAT,GUJARAT,INDIA.</a
-                    >
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-zoom60"></div>
-                <!-- <p>Main Office Map Location</p> -->
-                <div class="box-contacts-decor"></div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7438.1170352382715!2d72.807462!3d21.229528!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDEzJzQ2LjMiTiA3MsKwNDgnMzQuNyJF!5e0!3m2!1sen!2sin!4v1688989583150!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-sm bg-default">
-        <div class="container">
-          <div class="row row-30 justify-content-center">
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div
-                    class="box-contacts-icon fl-bigmug-line-cellphone55"
-                  ></div>
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link">
-                    <p>Vijay Parmar</p>
-                    <a href="tel:#">+91 7600672005</a>
-                  </p>
-                  <p class="box-contacts-link">
-                    <p>Yagnesh Parmar</p>
-                    <a href="tel:#">+91 6351570791</a>
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link">
-                    <a href="#"
-                      >  NILKANTH COMPLEX 3RD FLOOR NEAR PALDIYA HOSPITAL, PALIYAD ROAD
-                      BOTAD,GUJARAT,INDIA PIN CODE - 364710</a
-                    >
-                  </p>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-zoom60"></div>
-                  <div class="box-contacts-decor"></div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7389.496342344306!2d71.657769!3d22.173656!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDEwJzI1LjIiTiA3McKwMzknMzUuOSJF!5e0!3m2!1sen!2sin!4v1688989713507!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact Form-->
-      <section
-        class="section section-sm section-last bg-default text-left"
-        id="contacts"
-      >
-        <div class="container">
-          <article class="title-classic">
-            <div class="title-classic-title">
-              <h3>Get in touch</h3>
-            </div>
-            <div class="title-classic-text">
-              <p>
-                If you have any questions, just fill in the contact form, and we
-                will answer you shortly.
               </p>
             </div>
-          </article>
-          <form
-            class="rd-form rd-form-variant-2 rd-mailform"
-            data-form-output="form-output-global"
-            data-form-type="contact"
-            method="POST"
-            action="https://formsubmit.co/256fdb5c9dfa9214a31435ad93ac31e1"
-          >
-            <!-- <form
-            class="rd-form rd-form-variant-2 rd-mailform"
-            data-form-output="form-output-global"
-            data-form-type="contact"
-            method="POST"
-            onsubmit="sendEmail(); reset(); return false;"
-          > -->
-            <!-- honeypot -->
-
-            <input type="text" name="_honey" style="display: none" /> 
-
-            <!-- Disable Captcha -->
-            <input type="hidden" name="_captcha" value="false" />
-            <div class="row row-14 gutters-14">
-              <div class="col-md-4">
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-your-name-2"
-                    type="text"
-                    name="name"
-                    data-constraints="@Required"
-                  />
-                  <label class="form-label" for="contact-your-name-2"
-                    >Your Name</label
-                  >
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-email-2"
-                    type="email"
-                    name="email"
-                    data-constraints="@Email @Required"
-                  />
-                  <label class="form-label" for="contact-email-2">E-mail</label>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-phone-2"
-                    type="text"
-                    name="phone"
-                    data-constraints="@Numeric"
-                  />
-                  <label class="form-label" for="contact-phone-2">Phone</label>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-wrap">
-                  <label class="form-label" for="contact-message-2"
-                    >Message</label
-                  >
-                  <textarea
-                    class="form-input textarea-lg"
-                    id="contact-message-2"
-                    name="message"
-                    data-constraints="@Required"
-                  ></textarea>
-                </div>
-              </div>
-            </div>
-            <button class="button button-primary button-pipaluk" type="submit">
-              Send Message
-            </button>
-          </form>
-        </div>
-      </section>
-
-      <!-- Bottom Banner-->
-      <!-- <section class="section section-fluid">
-        <a
-          class="section-banner"
-          href="https://www.templatemonster.com/intense-multipurpose-html-template.html"
-          style="
-            background-image: url(images/banner/banner-bg-01-1920x310.jpg);
-            background-image: -webkit-image-set(
-              url(images/banner/banner-bg-01-1920x310.jpg) 1x,
-              url(images/banner/banner-bg-01-3840x620.jpg) 2x
-            );
-          "
-          target="_blank"
-          ><img
-            src="images/banner/banner-fg-01-1600x310.png"
-            srcset="
-              images/banner/banner-fg-01-1600x310.png 1x,
-              images/banner/banner-fg-01-3200x620.png 2x
-            "
-            alt=""
-            width="1600"
-            height="310"
-        /></a>
-      </section> -->
-
-      <!-- RD Google Map-->
-      <!-- <section class="section section-fluid">
-         Google Map-->
-      <!-- <section class="section">
-          <div
-            class="google-map-container"
-            data-center="6036 Richmond hwy., Alexandria, VA, 2230"
-            data-zoom="5"
-            data-styles='[{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"geometry.fill","stylers":[{"visibility":"on"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#b4d4e1"},{"visibility":"on"}]}]'
-          >
-            <div class="google-map"></div>
-            <ul class="google-map-markers">
-              <li
-                data-location="6036 Richmond hwy., Alexandria, VA, 2230"
-                data-description="6036 Richmond hwy., Alexandria, VA, 2230"
-                data-icon="images/gmap_marker.png"
-                data-icon-active="images/gmap_marker_active.png"
-              ></li>
-            </ul>
-          </div>
-        </section>
-      </section> -->
-
-      <!-- Page Footer-->
-      <footer class="section section-fluid footer-minimal context-dark">
-        <div class="bg-gray-15">
-          <div class="container-fluid">
-            <div class="footer-minimal-inset oh">
-              <!--<ul class="footer-list-category-2">
-                <li><a href="#">UI Design</a></li>
-                <li><a href="#">Windows/Mac OS Apps</a></li>
-                <li><a href="#">Android/iOS Apps</a></li>
-                <li><a href="#">Cloud Solutions</a></li>
-                <li><a href="#">Customer Support</a></li>
-              </ul> -->
-              <span>All rights reserved.</span>
-                  <span
-                    >Design&nbsp;by&nbsp;
-                    <!-- <a
-                      href="https://www.templatemonster.com"
-                      >TemplateMonster</a
-                    > -->
-                    Sivsankar Nayak 
-                    </span
-                  >
-            </div> 
-            <div class="footer-minimal-bottom-panel text-sm-left">
-              <div class="row row-10 align-items-md-center">
-                <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
-                  <div>
-                    <ul class="list-inline list-inline-sm footer-social-list-2">
-                      <li><a class="icon fa fa-facebook" href="#"></a></li>
-                      <li><a class="icon fa fa-twitter" href="#"></a></li>
-                      <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                      <li><a class="icon fa fa-instagram" href="#"></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4 order-sm-first">
-                  <!-- Rights-->
-                  <p class="rights">
-                    <span>&copy;&nbsp;</span
-                    ><span class="copyright-year"></span> <span>MaaTecnoWorld</span>
-                  </p>
-                </div>
-                <!-- <div class="col-sm-6 col-md-4 text-md-right">
-                  <span>All rights reserved.</span>
-                  <span
-                    >Design&nbsp;by&nbsp;
-                     <a
-                      href="https://www.templatemonster.com"
-                      >TemplateMonster</a
-                    > 
-                    Sivsankar Nayak 
-                    </span
-                  >
-                </div> -->
+            <div class="col-md-6 text-center text-md-right">
+              <div class="social-links">
+                <a href="javascript:void(0)" class="link"
+                  ><i class="ti-facebook"></i
+                ></a>
+                <a href="javascript:void(0)" class="link"
+                  ><i class="ti-twitter-alt"></i
+                ></a>
+                <a href="javascript:void(0)" class="link"
+                  ><i class="ti-google"></i
+                ></a>
+                <a href="javascript:void(0)" class="link"
+                  ><i class="ti-pinterest-alt"></i
+                ></a>
+                <a href="javascript:void(0)" class="link"
+                  ><i class="ti-instagram"></i
+                ></a>
+                <a href="javascript:void(0)" class="link"
+                  ><i class="ti-rss"></i
+                ></a>
               </div>
             </div>
           </div>
-        </div>
-      </footer>
-
-      <div
-        class="modal fade"
-        id="modalCta"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Contact Us</h4>
-              <button
-                class="close"
-                type="button"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form
-                class="rd-form rd-form-variant-2 rd-mailform"
-                data-form-output="form-output-global"
-                data-form-type="contact-modal"
-                method="POST"
-                action="https://formsubmit.co/256fdb5c9dfa9214a31435ad93ac31e1"
-              >
-                <div class="row row-14 gutters-14">
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input
-                        class="form-input"
-                        id="contact-modal-name"
-                        type="text"
-                        name="name"
-                        data-constraints="@Required"
-                      />
-                      <label class="form-label" for="contact-modal-name"
-                        >Your Name</label
-                      >
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input
-                        class="form-input"
-                        id="contact-modal-email"
-                        type="email"
-                        name="email"
-                        data-constraints="@Email @Required"
-                      />
-                      <label class="form-label" for="contact-modal-email"
-                        >E-mail</label
-                      >
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input
-                        class="form-input"
-                        id="contact-modal-phone"
-                        type="text"
-                        name="phone"
-                        data-constraints="@Numeric"
-                      />
-                      <label class="form-label" for="contact-modal-phone"
-                        >Phone</label
-                      >
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-modal-message"
-                        >Message</label
-                      >
-                      <textarea
-                        class="form-input textarea-lg"
-                        id="contact-modal-message"
-                        name="message"
-                        data-constraints="@Required"
-                      ></textarea>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  class="button button-primary button-pipaluk"
-                  type="submit"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
+        </footer>
       </div>
-      <!-- Jaydip modal-->
-      <div
-        class="modal fade"
-        id="jaydip"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Jaydip Vadchhak</h4>
-              <button
-                class="close"
-                type="button"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row row-14 gutters-14">
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <h4>Introducing Our CTO and Founder: Jaydip Vadchhak</h4>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <p>
-                      Welcome to Maa Techno World Solutions Pvt Ltd! Meet Jaydip
-                      Vadchhak, our visionary Chief Technology Officer (CTO) and
-                      Founder. With a passion for freelance IT projects, Jaydip
-                      Vadchhak has shaped our company's success. As an expert in
-                      technology and an entrepreneur, he founded Maa Techno
-                      World Solutions Pvt Ltd to deliver cutting-edge IT
-                      solutions. Under his leadership, we have achieved
-                      milestones, empowering clients worldwide. Jaydip
-                      Vadchhak's technical brilliance, customer-centric
-                      approach, and understanding of the freelance IT industry
-                      drive us forward. With a profound knowledge of emerging
-                      trends and a diverse skill set, he navigates projects with
-                      efficiency. Trust Jaydip Vadchhak to lead our team, foster
-                      innovation, and exceed expectations. Let's collaborate on
-                      freelance IT projects and turn your ideas into reality.
-                      Contact Jaydip Vadchhak and join us on this successful
-                      journey!
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="button button-primary button-pipaluk"
-                type="submit"
-              >
-                Send Message
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+    </section>
 
-      <!--Deepak Modal-->
-      <div
-        class="modal fade"
-        id="deepak"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Deepak Nayak</h4>
-              <button
-                class="close"
-                type="button"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row row-14 gutters-14">
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <h4>Introducing Our COO and Co-founder: Deepak Nayak</h4>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <p>
-                      Meet Deepak Nayak, our esteemed Chief Operating Officer
-                      (COO) and Co-founder at Maa Techno World Solutions Pvt
-                      Ltd. With a keen focus on operational excellence and a
-                      strong business acumen, Deepak Nayak has been instrumental
-                      in shaping our company's growth and success. As the COO,
-                      Deepak Nayak brings extensive experience and expertise to
-                      optimize our internal processes, drive efficiency, and
-                      foster sustainable growth. His strategic vision and
-                      meticulous attention to detail ensure the delivery of
-                      high-quality services and solutions to our clients. Deepak
-                      Nayak's role as a Co-founder highlights his
-                      entrepreneurial spirit and ability to navigate market
-                      dynamics. His leadership skills inspire our team,
-                      fostering collaboration, innovation, and professional
-                      development. With Deepak Nayak's dedication to operational
-                      efficiency and client satisfaction, Maa Techno World
-                      Solutions Pvt Ltd is poised for continued success in the
-                      competitive IT industry. Connect with Deepak Nayak and
-                      experience the expertise and leadership he brings to Maa
-                      Techno World Solutions Pvt Ltd. Let's embark on a journey
-                      of innovation and success together!
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="button button-primary button-pipaluk"
-                type="submit"
-              >
-                Send Message
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Nitin Modal-->
-      <div
-        class="modal fade"
-        id="nitin"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Nitin Vadchhak</h4>
-              <button
-                class="close"
-                type="button"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row row-14 gutters-14">
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <h4>
-                      Introducing Our CFO - Driving Financial Excellence and
-                      Strategic Growth
-                    </h4>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <p>
-                      We are pleased to present Nitin Vadchhak, the visionary
-                      leader and Chief Financial Officer (CFO) of MaaTecno
-                      Solutions Pvt Ltd. With an unwavering commitment to
-                      financial excellence and strategic foresight, Nitin
-                      Vadchhak plays a pivotal role in shaping our company's
-                      financial landscape. As an experienced and results-driven
-                      finance professional, Nitin Vadchhak brings a wealth of
-                      expertise to our organization. With a track record of
-                      driving financial growth and implementing sustainable
-                      strategies, Nitin Vadchhak ensures that our financial
-                      operations are robust, efficient, and aligned with our
-                      strategic goals. Nitin Vadchhak's strategic financial
-                      leadership enables MaaTecno Solutions to capitalize on
-                      growth opportunities while optimizing resource allocation
-                      and maintaining a healthy financial position.
-                      Collaborating closely with cross-functional teams, Nitin
-                      Vadchhak provides invaluable guidance and contributes to
-                      the overall success and growth of our organization. Join
-                      us as we navigate the financial landscape under the
-                      guidance of our esteemed CFO, Nitin Vadchhak. With Nitin
-                      Vadchhak's expertise, MaaTecno Solutions continues to
-                      excel as a financially strong and sustainable company,
-                      driving innovation and propelling us towards future
-                      success.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="button button-primary button-pipaluk"
-                type="submit"
-              >
-                Send Message
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Bhavesh Modal-->
-      <div
-        class="modal fade"
-        id="bhavesh"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Bhavesh Sonani</h4>
-              <button
-                class="close"
-                type="button"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row row-14 gutters-14">
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <h4>
-                      Introducing Our Managing Partner - Surat Location: Driving
-                      Vision and Empowering Succes
-                    </h4>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <p>
-                      We are excited to introduce Bhavesh Sonani, our esteemed
-                      Managing Partner at MaaTecno Solutions Pvt Ltd, based at
-                      our Surat location. With a strong vision for success and
-                      an unwavering commitment to excellence, Bhavesh Sonani
-                      plays a pivotal role in driving our organization's growth
-                      and empowering our team in Surat. With extensive
-                      experience and a proven track record, Bhavesh Sonani
-                      brings a deep understanding of the local market dynamics,
-                      enabling us to deliver tailored solutions to our clients
-                      in Surat. Through strategic guidance, Bhavesh Sonani
-                      ensures that MaaTecno Solutions remains at the forefront
-                      of technology solutions, while fostering a collaborative
-                      work environment that empowers our talented team to excel.
-                      Join us as we embark on an exciting journey of innovation
-                      and success under the leadership of our visionary Managing
-                      Partner, Bhavesh Sonani, at our Surat location.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="button button-primary button-pipaluk"
-                type="submit"
-              >
-                Send Message
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Vijay Modal-->
-      <div
-        class="modal fade"
-        id="vijay"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Vijay Parmar</h4>
-              <button
-                class="close"
-                type="button"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row row-14 gutters-14">
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <h4>
-                      Introducing Our Managing Partner - Botad Location: Driving
-                      Vision and Empowering Success
-                    </h4>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <p>
-                      We are thrilled to introduce Vijay Parmar, our esteemed
-                      Managing Partner at MaaTecno Solutions Pvt Ltd, based at
-                      our Botad location. With a strong vision for success and
-                      an unwavering commitment to excellence, Vijay Parmar plays
-                      a pivotal role in driving our organization's growth and
-                      empowering our team in Botad. With extensive experience
-                      and a proven track record, Vijay Parmar brings a deep
-                      understanding of the local market dynamics, enabling us to
-                      deliver tailored solutions to our clients in Botad and its
-                      surrounding areas. Through strategic guidance, Vijay
-                      Parmar ensures that MaaTecno Solutions remains at the
-                      forefront of technology solutions, while fostering a
-                      collaborative work environment that empowers our talented
-                      team to excel. Join us as we embark on an exciting journey
-                      of innovation and success under the leadership of our
-                      visionary Managing Partner, Vijay Parmar, at our Botad
-                      location.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="button button-primary button-pipaluk"
-                type="submit"
-              >
-                Send Message
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Sivsankar Modal-->
-      <div
-        class="modal fade"
-        id="sivsankar"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4>Sivsankar Nayak</h4>
-              <button
-                class="close"
-                type="button"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row row-14 gutters-14">
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <h4>
-                      Meet Our CIO - Sivsankar Nayak: Empowering Technological
-                      Innovation and Strategic Excellence
-                    </h4>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-wrap">
-                    <p>
-                      We are pleased to introduce Sivsankar Nayak as our
-                      esteemed Chief Information Officer (CIO) at MaaTecno
-                      Solutions Pvt Ltd. With a deep passion for technological
-                      innovation and a relentless pursuit of strategic
-                      excellence, Sivsankar Nayak plays a pivotal role in
-                      shaping the future of our organization. As an accomplished
-                      leader, Sivsankar Nayak brings a wealth of expertise and
-                      experience to our company. With a proven track record of
-                      successfully implementing transformative technology
-                      solutions, Sivsankar Nayak leads our digital
-                      transformation initiatives, ensuring that we remain at the
-                      forefront of technological advancements. Guiding a
-                      dedicated team of IT professionals, Sivsankar Nayak
-                      develops and executes our technology strategy, leveraging
-                      emerging technologies and fostering innovation. By
-                      enhancing operational efficiency and driving productivity,
-                      Sivsankar Nayak empowers our organization to deliver
-                      exceptional solutions that meet the evolving needs of our
-                      clients. With a strategic mindset, Sivsankar Nayak aligns
-                      our technology investments with our overall business
-                      goals, creating competitive advantages and propelling our
-                      company's growth. Additionally, Sivsankar Nayak
-                      prioritizes information security and data privacy,
-                      implementing robust measures to safeguard our organization
-                      and clients' valuable assets. Join us as we embrace the
-                      future of technology under the visionary leadership of our
-                      CIO, Sivsankar Nayak. Together, we continue to leverage
-                      innovation, drive strategic excellence, and deliver
-                      cutting-edge solutions that shape the success of MaaTecno
-                      Solutions and our clients.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="button button-primary button-pipaluk"
-                type="submit"
-              >
-                Send Message
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!-- coded by Himic-->
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-      function sendEmail() {
-        Email.send({
-          Host: "smtp.elasticemail.com",
-          Username: "maatecnoworlditsolutions@gmail.com",
-          Password: "DF36E8DAADABE1C89E9A9A0C0FA90FEBC80C",
-          To: "maatecnoworlditsolutions@gmail.com",
-          From: document.getElementById("contact-email-2").value,
-          Subject: "New Contact From Contact Us",
-          Body:
-            "Name : " +
-            document.getElementById("contact-your-name-2").value +
-            "<br> Email : " +
-            document.getElementById("contact-email-2").value +
-            "<br> Phone No : " +
-            document.getElementById("contact-phone-2").value +
-            "<br> Message : " +
-            document.getElementById("contact-message-2").value,
-        }).then((message) => alert("Message Sent Successfully!"));
-      }
-    </script>
+    <!-- core  -->
+    <script src="./assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="./assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="./assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Owl carousel  -->
+    <script src="./assets/vendors/owl-carousel/js/owl.carousel.js"></script>
+
+    <!-- Ollie js -->
+    <script src="./assets/js/ollie.js"></script>
   </body>
 </html>
